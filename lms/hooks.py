@@ -64,9 +64,9 @@ after_install = "lms.install.after_install"
 after_sync = "lms.install.after_sync"
 before_uninstall = "lms.install.before_uninstall"
 setup_wizard_requires = "assets/lms/js/setup_wizard.js"
-after_migrate = [
-	"lms.sqlite.build_index_in_background",
-]
+# after_migrate = [
+# 	"lms.sqlite.build_index_in_background",
+# ]
 
 # Desk Notifications
 # ------------------
@@ -118,9 +118,9 @@ doc_events = {
 # Scheduled Tasks
 # ---------------
 scheduler_events = {
-	"all": [
-		"lms.sqlite.build_index_in_background",
-	],
+	# "all": [
+	# 	"lms.sqlite.build_index_in_background",
+	# ],
 	"hourly": [
 		"lms.lms.doctype.lms_certificate_request.lms_certificate_request.schedule_evals",
 		"lms.lms.api.update_course_statistics",
