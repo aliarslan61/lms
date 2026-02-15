@@ -260,4 +260,4 @@ add_to_apps_screen = [
 	}
 ]
 
-sqlite_search = ["lms.sqlite.LearningSearch"]
+# sqlite_search = ["lms.sqlite.LearningSearch"]
